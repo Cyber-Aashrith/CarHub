@@ -46,7 +46,7 @@ export const calculateCarRent = (city_mpg: number, year: number) => {
   
     // Set the required headers for the API request
     const headers: HeadersInit = {
-      "X-RapidAPI-Key": process.env.RAPID_API_KEY || "",
+      "X-RapidAPI-Key": 'c68c333318msh1fef5f364975359p18b785jsn3dbc3452ef26' || "",
       "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com",
     };
   
